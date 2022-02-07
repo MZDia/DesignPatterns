@@ -1,3 +1,7 @@
+/**
+ * Enumeration that holds all car accessories
+ * @author Mia Dia
+ */
 enum Accessories {
   SPORTS_SEATS,
   WINDOW_TINT,
