@@ -62,7 +62,7 @@ public class MathGame {
 
     /**
      * calculates random questions for the user to answer
-     * @return
+     * @return boolean for if the player got the answer right or wrong
      */
     private boolean playRound() {
         System.out.println("Round answer to 1 decimal place");
