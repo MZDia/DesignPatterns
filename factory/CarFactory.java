@@ -12,9 +12,9 @@ public class CarFactory {
    */
   public static Car createCar(String type, String make, String model) {
     type = type.toUpperCase();
-    if (type.equals("SMALL")) {
+    if (type.equals(CarType.SMALL.toString())) {
       return new SmallCar(make, model);
-    } else if (type.equals("SEDAN")) {
+    } else if (type.equals(CarType.SEDAN.toString())) {
       return new SedanCar(make, model);
     } else { //LUXURY
       return new LuxuryCar(make, model);
